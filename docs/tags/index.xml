@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ev1lm0rty</title>
+    <link>https://ev1lm0rty.com/tags/</link>
+    <description>Recent content in Tags on ev1lm0rty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Shubham Arya</copyright>
+    <lastBuildDate>Sun, 12 Dec 2021 23:07:19 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>misc</title>
+      <link>https://ev1lm0rty.com/tags/misc/</link>
+      <pubDate>Sun, 12 Dec 2021 23:07:19 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
