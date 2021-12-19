@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ev1lm0rty</title>
-    <link>https://ev1lm0rty.com/posts/</link>
-    <description>Recent content in Posts on ev1lm0rty</description>
+    <title>log4j on ev1lm0rty</title>
+    <link>https://ev1lm0rty.com/tags/log4j/</link>
+    <description>Recent content in log4j on ev1lm0rty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Shubham Arya</copyright>
-    <lastBuildDate>Sat, 18 Dec 2021 17:17:04 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 17:17:04 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/log4j/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finding Log4j (The skiddie way)</title>
       <link>https://ev1lm0rty.com/posts/find-log4j/</link>

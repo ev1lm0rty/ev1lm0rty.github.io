@@ -7,13 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Shubham Arya</copyright>
-    <lastBuildDate>Sun, 12 Dec 2021 23:07:19 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 17:17:04 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>misc</title>
-      <link>https://ev1lm0rty.com/tags/misc/</link>
-      <pubDate>Sun, 12 Dec 2021 23:07:19 +0530</pubDate>
+      <title>bugbounty</title>
+      <link>https://ev1lm0rty.com/tags/bugbounty/</link>
+      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
       
-      <guid>https://ev1lm0rty.com/tags/misc/</guid>
+      <guid>https://ev1lm0rty.com/tags/bugbounty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>log4j</title>
+      <link>https://ev1lm0rty.com/tags/log4j/</link>
+      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/tags/log4j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>one-liner</title>
+      <link>https://ev1lm0rty.com/tags/one-liner/</link>
+      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/tags/one-liner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shorts</title>
+      <link>https://ev1lm0rty.com/tags/shorts/</link>
+      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/tags/shorts/</guid>
       <description></description>
     </item>
     
