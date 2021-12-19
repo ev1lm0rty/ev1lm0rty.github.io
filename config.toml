@@ -58,7 +58,7 @@ weight = 3
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hello World..!!! This is Shubham Arya (ev1lm0rty), I am an InfoSec geek with a knack for automating boring stuff. I Love playing CTFs and Wargames in my free time. This website highlights my work (most of it is just the stuff I make in my free time). If you like, you can contribute to it too."
+  description = "Hello World..!!! This is Shubham Arya (ev1lm0rty), I am an InfoSec geek with a knack for automating boring stuff. I Love playing CTFs and Wargames in my free time. This website highlights my work (most of it is just the stuff I make in my free time). If you like, you can contribute to it too and maybe [buy me a beer](https://buymeacoffee.com/ev1lm0rty) :)"
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
