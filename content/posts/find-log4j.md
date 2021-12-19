@@ -1,11 +1,11 @@
 ---
 title: "Finding Log4j (The skiddie way)"
 date: 2021-12-18T17:17:04+05:30
-draft: true
 tags:
   - bugbounty
   - shorts
   - log4j
+  - one-liner
 ---
 
 
