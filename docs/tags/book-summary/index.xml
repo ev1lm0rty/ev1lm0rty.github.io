@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ev1lm0rty</title>
-    <link>https://ev1lm0rty.com/</link>
-    <description>Recent content on ev1lm0rty</description>
+    <title>book-summary on ev1lm0rty</title>
+    <link>https://ev1lm0rty.com/tags/book-summary/</link>
+    <description>Recent content in book-summary on ev1lm0rty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Shubham Arya</copyright>
-    <lastBuildDate>Sun, 03 Apr 2022 17:33:16 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 17:33:16 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/book-summary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Miracle Morning</title>
       <link>https://ev1lm0rty.com/book-summary/the-miracle-morning/</link>
@@ -26,16 +26,6 @@
       <guid>https://ev1lm0rty.com/book-summary/the-psychology-of-money/</guid>
       <description>The Psychology of Money  Morgan Housel
   Most money decisions are made by personal experiences. Something that makes sense to one, might sound crazy to another. We don&amp;rsquo;t have much data/experience with money and we are just working with our experiences. &amp;ldquo;I want you to be successful, and I want you to earn it. But realize that not all success is due to hard work, and not all poverty is due to laziness.</description>
-    </item>
-    
-    <item>
-      <title>Finding Log4j (The skiddie way)</title>
-      <link>https://ev1lm0rty.com/posts/find-log4j/</link>
-      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
-      
-      <guid>https://ev1lm0rty.com/posts/find-log4j/</guid>
-      <description>About So the past week the internet was on fire, log4j CVE dropped and it dropped hard. It was like as if people were running for their lives, putting out fires. And it got even worse after the infosec community quickly started hunting for this vulnerability. Today let’s take a dig into vulnerability and learn how to find it (The skiddie way).
-What is Log4j CVE-2021-44228 I guess you already know about it, if not then here are some great resources:</description>
     </item>
     
   </channel>
