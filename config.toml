@@ -21,9 +21,14 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Book-Summaries"
+url = "/book-summary"
+weight = 3
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 3
+weight = 4
 
 # [[menu.main]]
 # name = "About"
@@ -103,3 +108,7 @@ weight = 3
     name = "email"
     link = "sec.ev1lm0rty@gmail.com"  # no need for "mailto:" in the head
 
+[imaging]
+resampleFilter = "box"
+bgColor = "#ffffff"
+anchor = "center"
