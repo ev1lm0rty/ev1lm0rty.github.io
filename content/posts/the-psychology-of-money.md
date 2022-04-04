@@ -1,13 +1,10 @@
 ---
-title: "The Psychology of Money"
+title: "Book-Summary: The Psychology of Money"
 author: Morgan Housel
 date: 2022-04-03T17:27:13+05:30
-date completed: 28-03-2022
 tags:
   - book-summary
 ---
-# The Psychology of Money
-> Morgan Housel
 
 * Most money decisions are made by personal experiences.
 * Something that makes sense to one, might sound crazy to another.

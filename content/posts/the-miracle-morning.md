@@ -1,14 +1,11 @@
 ---
-title: "The Miracle Morning"
+title: "Book-Summary: The Miracle Morning"
 author: Hal Elrod
 date: 2022-04-03T17:33:16+05:30
-date completed: 01-03-2022
 tags:
   - book-summary
 ---
 
-# The Miracle Morning Summary
-> Hal Elrod
 
 * Wake up early at the same time every day
 * You can achieve level 10 success in every field
@@ -20,7 +17,7 @@ tags:
 	* R: Read
 	* S: Scribe
 * "Your self talk has powerful impact on your success in each field."
-* "Weather you think you can or you think you can't, you are right."
+* "Whether you think you can or you think you can't, you are right."
 * "You can use affirmations to start programming yourself to be confident and successful in everything you do."
 * "The Wise begin with Why's
 * Sit in silence for sometime
