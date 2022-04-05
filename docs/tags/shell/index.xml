@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on ev1lm0rty</title>
+    <link>https://ev1lm0rty.com/tags/shell/</link>
+    <description>Recent content in shell on ev1lm0rty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Shubham Arya</copyright>
+    <lastBuildDate>Tue, 05 Apr 2022 14:05:55 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell Tips and Tricks</title>
+      <link>https://ev1lm0rty.com/posts/shell-tips-and-tricks/</link>
+      <pubDate>Tue, 05 Apr 2022 14:05:55 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/posts/shell-tips-and-tricks/</guid>
+      <description>About Hi readers, it&amp;rsquo;s been a long time since my last blog. I&amp;rsquo;m not used to blogging regularly, but anyways, I&amp;rsquo;m trying to keep up. So today I&amp;rsquo;ll share some shell tips and tricks that I discoverd/read/picked-up-from-the-internet/learned-from-my-friends so that you can make your life easier too.
+Tips 1. Copy text from your shell to your clipboard. Hate to select text manually from the terminal ? I feel you, here&amp;rsquo;s how you can do it.</description>
+    </item>
+    
+  </channel>
+</rss>
