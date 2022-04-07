@@ -34,7 +34,7 @@ sudo apt install xsel
 So I used to usually pipe the out put to a file first and then `vim` it , but turns out you can directly pass stuff to it
 
 ```bash
-cat /etc/passwd | vim -
+curl <some-website> | grep <some regex> | vim -
 ```
 
 Now you can edit your output and then save it to any file by going to command mode and `:w filename.txt`
@@ -256,7 +256,7 @@ echo "I want to print this twice"
 
 ---
 
-## Conculsion
+## Conclusion
 So these were (a few of so many) shell tips and tricks I used in my day to day work flow. I will try to make a part two for some advance shell/linux tips and tricks
 in the future. If you find these helpful you can [buy me a beer](https://buymeacoffee.com/ev1lm0rty) ;)
 
