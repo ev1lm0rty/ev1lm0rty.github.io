@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Shubham Arya</copyright>
-    <lastBuildDate>Tue, 05 Apr 2022 14:05:55 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 12:26:56 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writeup: HackPackCTF-2022</title>
+      <link>https://ev1lm0rty.com/posts/writeup-hackpack-2022/</link>
+      <pubDate>Mon, 11 Apr 2022 12:26:56 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/posts/writeup-hackpack-2022/</guid>
+      <description>About Hello readers, I have regularly started playing CTFs on the weekends again. I hope this time that I&amp;rsquo;ll be regular.
+Last weekend I played the HackPack2022 CTF. It was a really fun CTF and I learned a lot of things.
+Out of all the challenges solved, I am posting the writeups of the most interesting ones. Enjoy !
+Web: Imported Kimichi This challenge highlighted &amp;ldquo;insecure unpickling&amp;rdquo; bug . The challenge gave us a website which we can use for image upload and later viewing.</description>
+    </item>
+    
     <item>
       <title>Shell Tips and Tricks</title>
       <link>https://ev1lm0rty.com/posts/shell-tips-and-tricks/</link>

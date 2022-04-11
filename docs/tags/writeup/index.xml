@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writeup on ev1lm0rty</title>
+    <link>https://ev1lm0rty.com/tags/writeup/</link>
+    <description>Recent content in writeup on ev1lm0rty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Shubham Arya</copyright>
+    <lastBuildDate>Mon, 11 Apr 2022 12:26:56 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writeup: HackPackCTF-2022</title>
+      <link>https://ev1lm0rty.com/posts/writeup-hackpack-2022/</link>
+      <pubDate>Mon, 11 Apr 2022 12:26:56 +0530</pubDate>
+      
+      <guid>https://ev1lm0rty.com/posts/writeup-hackpack-2022/</guid>
+      <description>About Hello readers, I have regularly started playing CTFs on the weekends again. I hope this time that I&amp;rsquo;ll be regular.
+Last weekend I played the HackPack2022 CTF. It was a really fun CTF and I learned a lot of things.
+Out of all the challenges solved, I am posting the writeups of the most interesting ones. Enjoy !
+Web: Imported Kimichi This challenge highlighted &amp;ldquo;insecure unpickling&amp;rdquo; bug . The challenge gave us a website which we can use for image upload and later viewing.</description>
+    </item>
+    
+  </channel>
+</rss>
