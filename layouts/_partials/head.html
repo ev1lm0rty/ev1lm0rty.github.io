@@ -26,21 +26,19 @@
     {{/* JetBrains Mono Nerd Font — site-wide override */}}
     {{ partial "custom-head.html" . }}
 
-    {{/* Favicons */}}
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "icons/apple-touch-icon.png").RelPermalink }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "icons/favicon-32x32.png").RelPermalink }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "icons/favicon-16x16.png").RelPermalink }}">
-    <link rel="mask-icon" href="{{ (resources.Get "icons/safari-pinned-tab.svg").RelPermalink }}">
-    <link rel="shortcut icon" href="{{ (resources.Get "icons/favicon.ico" | resources.Copy "favicon.ico").RelPermalink }}">
-
-    {{- partial "webmanifest.html" . -}}
-    {{- partial "browserconfig.html" . -}}
+    {{/* Favicons — derived from assets/avatar.png */}}
+    {{- $avatar := resources.Get "avatar.png" -}}
+    {{- $apple  := $avatar.Fill "180x180 center png" -}}
+    {{- $fav32  := $avatar.Fill "32x32 center png" -}}
+    {{- $fav16  := $avatar.Fill "16x16 center png" -}}
+    {{- $rootFav := $fav32 | resources.Copy "favicon.ico" -}}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ $apple.RelPermalink }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ $fav32.RelPermalink }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ $fav16.RelPermalink }}">
+    <link rel="shortcut icon" href="{{ $rootFav.RelPermalink }}">
 
     <meta name="theme-color" content="{{ .Site.Params.webmanifest.theme_color | default "#434648" }}">
     <meta name="color-scheme" content="light dark">
-
-    {{/* SVG favicon for the modern web */}}
-    <link rel="icon" type="image/svg+xml" href="{{ (resources.Get "icons/favicon.svg").RelPermalink }}">
 
     {{/* Katex support (enabled on specific pages). See 'helpers/katex.html' for more info. */}}
 
