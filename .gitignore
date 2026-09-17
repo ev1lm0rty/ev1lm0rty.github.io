@@ -1,0 +1,8 @@
+.DS_Store
+.hugo_build.lock
+public/
+public-preview/
+resources/_gen/
+
+# Local-only notes (not for the repo)
+PUBLISHING.md

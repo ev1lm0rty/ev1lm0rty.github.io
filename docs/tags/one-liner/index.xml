@@ -1,22 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>one-liner on ev1lm0rty</title>
-    <link>https://ev1lm0rty.com/tags/one-liner/</link>
-    <description>Recent content in one-liner on ev1lm0rty</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Shubham Arya</copyright>
-    <lastBuildDate>Sat, 18 Dec 2021 17:17:04 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/one-liner/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Finding Log4j (The skiddie way)</title>
-      <link>https://ev1lm0rty.com/posts/find-log4j/</link>
-      <pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate>
-      
-      <guid>https://ev1lm0rty.com/posts/find-log4j/</guid>
-      <description>About So the past week the internet was on fire, log4j CVE dropped and it dropped hard. It was like as if people were running for their lives, putting out fires. And it got even worse after the infosec community quickly started hunting for this vulnerability. Today let’s take a dig into vulnerability and learn how to find it (The skiddie way).
-What is Log4j CVE-2021-44228 I guess you already know about it, if not then here are some great resources:</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>One-Liner on ev1lm0rty</title><link>https://ev1lm0rty.com/tags/one-liner/</link><description>Recent content in One-Liner on ev1lm0rty</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Dec 2021 17:17:04 +0530</lastBuildDate><atom:link href="https://ev1lm0rty.com/tags/one-liner/index.xml" rel="self" type="application/rss+xml"/><item><title>Finding Log4j (The skiddie way)</title><link>https://ev1lm0rty.com/posts/find-log4j/</link><pubDate>Sat, 18 Dec 2021 17:17:04 +0530</pubDate><guid>https://ev1lm0rty.com/posts/find-log4j/</guid><description>&lt;h2 id="about"&gt;About&lt;/h2&gt;
+&lt;p&gt;So the past week the internet was on fire, log4j CVE dropped and it dropped hard. It was like as if people were running for their lives,
+putting out fires. And it got even worse after the infosec community quickly started hunting for this vulnerability.
+Today let’s take a dig into vulnerability and learn how to find it (The skiddie way).&lt;/p&gt;
+&lt;h2 id="what-is-log4j-cve-2021-44228"&gt;What is Log4j CVE-2021-44228&lt;/h2&gt;
+&lt;p&gt;I guess you already know about it, if not then here are some great resources:&lt;/p&gt;</description></item></channel></rss>
