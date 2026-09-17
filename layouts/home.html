@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
+
+{{- if eq $defaultColor "dark" -}}
+<html lang="{{ .Site.Language.Locale }}" class="dark">
+{{- else if eq $defaultColor "light" -}}
+<html lang="{{ .Site.Language.Locale }}" class="light">
+{{- else -}}
+<html lang="{{ .Site.Language.Locale }}">
+{{- end -}}
+
+{{- partial "head.html" . -}}
+<style>
+    /* Bio: single tight paragraph, slightly wider than theme default */
+    .author .author-bio {
+        max-width: 500px;
+        line-height: 1.6;
+    }
+    .author .author-bio p {
+        margin: 0;
+    }
+
+    /* Projects: stack title above description, remove the flex row layout */
+    .projects-item-note {
+        margin-top: 2.5rem;
+    }
+    .project-item {
+        display: block;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+    .project-item .post-item-title {
+        display: block;
+    }
+    .project-item-desc {
+        font-size: 0.9em;
+        line-height: 1.5;
+        opacity: 0.75;
+        margin: 0.2rem 0 0;
+    }
+</style>
+
+<body data-theme="{{ $defaultColor }}" class="notransition">
+    {{- partial "scriptsBodyStart.html" . -}}
+    {{- partial "header.html" . -}}
+    <div class="wrapper">
+        {{ partial "bio" . }}
+        <main aria-label="Content">
+            <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
+            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+            {{ $posts := $pagesToShow.ByDate.Reverse }}
+            {{ range first 5 $posts }}
+            {{ partial "postCard" . }}
+            {{ end }}
+            {{ if gt (len $posts) 5 }}
+            <p>
+                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+                {{ end }}
+            </p>
+            {{ end }}
+
+            {{ with .Site.Data.projects }}
+            <h3 class="posts-item-note projects-item-note" aria-label="Projects">Projects</h3>
+            {{ range .list }}
+            <article class="post-item project-item">
+                <h4 class="post-item-title">
+                    <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+                </h4>
+                <p class="post-item-meta project-item-desc">{{ .desc }}</p>
+            </article>
+            {{ end }}
+            {{ end }}
+        </main>
+    </div>
+    {{- partial "footer.html" . -}}
+    {{- partial "scriptsBodyEnd.html" . -}}
+</body>
+
+</html>

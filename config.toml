@@ -1,91 +1,94 @@
-## Main
-baseURL = "https://ev1lm0rty.com"
-languageCode = "en-us"
+baseURL = "https://ev1lm0rty.com/"
 title = "ev1lm0rty"
-theme = "cactus"
+theme = "hugo-blog-awesome"
 copyright = "Shubham Arya"
 
-## Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+locale = "en-us"
+defaultContentLanguage = "en-us"
+enableEmoji = true
+enableRobotsTXT = true
+ignoreErrors = ["additional-script-loading-error"]
 
-[[menu.main]]
-name = "Posts"
-url = "/posts"
-weight = 2
-
-#[[menu.main]]
-#name = "Books"
-#url = "/books"
-#weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-
+# Publish directory kept as docs/ so GitHub Pages continues to serve it.
+publishDir = "docs"
 
 [markup]
+  [markup.highlight]
+    noClasses = false
+    style = "dracula"
+    codeFences = true
+    guessSyntax = true
+    tabWidth = 4
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.tableOfContents]
+    startLevel = 2
     endLevel = 4
     ordered = false
-    startLevel = 2
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = true
-    style = "dracula"
-    tabWidth = 4
+
+[[menu.main]]
+  pageRef = "/"
+  name    = "Home"
+  url     = "/"
+  weight  = 10
+
+[[menu.main]]
+  pageRef = "posts"
+  name    = "Posts"
+  url     = "/posts/"
+  weight  = 20
+
+[[menu.main]]
+  pageRef = "tags"
+  name    = "Tags"
+  url     = "/tags/"
+  weight  = 30
 
 [params]
+  sitename        = "ev1lm0rty"
+  defaultColor    = "dark"
+  description     = "Shubham Arya (ev1lm0rty) — InfoSec geek, CTF player, and lover of automating boring stuff."
+  mainSections    = ["posts"]
+  toc             = true
+  tocOpen         = false
+  goToTop         = true
+  dateFormat      = "2 Jan, 2006"
+  rssFeedDescription = "summary"
 
-  dateform        = "2 Jan, 2006"
-  dateformShort   = "2 Jan"
-  dateformNum     = "02-01-2006"
-  dateformNumTime = "02-01-2006 15:04"
-  colortheme = "dark" # dark, light, white, or classic
-  # rss = true # generate rss feed. default value is false
-  # googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
+  [params.author]
+    intro       = "ev1lm0rty"
+    name        = "Shubham Arya"
+    description = "Product security engineer. When I'm not working, I'm usually deep in a book, at a chess board, or somewhere on a trek. This site collects whatever I feel like sharing — if any of it saves you time, [buy me a beer](https://buymeacoffee.com/ev1lm0rty) 🍺"
+    avatar = "avatar.png"
 
-  # Home page settings
-  description = "Hello World..!!! This is Shubham Arya (ev1lm0rty), I am an InfoSec geek with a knack for automating boring stuff. I Love playing CTFs and Wargames in my free time. This website highlights my work (most of it is just the stuff I make in my free time). If you like, you can contribute to it too and maybe [buy me a beer](https://buymeacoffee.com/ev1lm0rty) :)"
-  mainSection = "posts"
-  showAllPostsOnHomePage = true
-  postsOnHomePage = 5
-  tagsOverview = false
-  showProjectsList = true
-  projectsUrl = "https://github.com/ev1lm0rty"
+  [params.webmanifest]
+    theme_color      = "#131418"
+    background_color = "#131418"
+    display          = "standalone"
 
+  [params.browserconfig]
+    TileColor = "#131418"
 
-  ## Post page settings
-  show_updated = true
-  showReadTime = false
+[[params.socialIcons]]
+  name = "github"
+  url  = "https://github.com/ev1lm0rty"
 
-## Social Media URLS
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/ev1lm0rty"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/iamshubhamarya8"
-  [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/ev1lm0rtyy"
-  [[params.social]]
-    name = "reddit"
-    link = "https://reddit.com/user/iamnobody_8"
-  [[params.social]]
-    name = "email"
-    link = "sec.ev1lm0rty@gmail.com"
+[[params.socialIcons]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/iamshubhamarya8"
 
-[imaging]
-resampleFilter = "box"
-bgColor = "#ffffff"
-anchor = "center"
+[[params.socialIcons]]
+  name = "twitter"
+  url  = "https://twitter.com/ev1lm0rtyy"
+
+[[params.socialIcons]]
+  name = "reddit"
+  url  = "https://reddit.com/user/iamnobody_8"
+
+[[params.socialIcons]]
+  name = "email"
+  url  = "mailto:sec.ev1lm0rty@gmail.com"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url  = "/index.xml"
